@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#square {
+ margin: 30px;
+  position: absolute;
+  user-select: none; 
+} 
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: rgb(66, 66, 66);
+  position: relative;
+  user-select: none; /* Предотвращает выделение текста */
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  cursor: pointer;
+  transform: translateY(-50%);
+  position: absolute;
+  user-select: none; /* Предотвращает выделение текста */
+}
+
+.polzunok {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  background-color: rgb(186, 185, 185);
+  user-select: none; /* Предотвращает выделение текста */
+  width: fit-content;
+  align-items: center;
+  top: 30px;
+  left: 70px;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.polzunok0 {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  /* background-color: rgb(195, 193, 193); */
+  user-select: none; /* Предотвращает выделение текста */
+  width: fit-content;
+  align-items: center;
+  top: 30px;
+  left: 70px;
+  font-size: 20px;
+   
+}
+
+
+.polzunok1 {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  background-color: rgb(144, 144, 144);
+  user-select: none; /* Предотвращает выделение текста */
+  width: fit-content;
+  align-items: center;
+  top: 30px;
+  right: 70px;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 20px;
+   
+}
+
+.val {
+  min-width: 60px;
+  min-height: 30px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  user-select: none; /* Предотвращает выделение текста */
+}
+
+
+.rect1 {
+  background-color: rgb(228, 228, 228);
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-inline: auto;
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  /* margin-top: 500px; */
+  align-items: center;
+  font-size: 20px;
+
+  
+}
+
+#rect1 {
+  position: absolute;
+  user-select: none; 
+  /* margin-left: 50px; */
+}
+
+.rect {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(195, 193, 193);
+  margin-inline: auto;
+  margin-top: 25%;
+  transform: translateX(50%);
+  user-select: none;
+}
+
+.colors {
+  width: 1200px;
+  padding-inline: 20px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* bottom: 200px; */
+  /* position: absolute; */
+  margin-top: 500px;
+  
+}
+
+.cont {
+  width: 100px;
+  height: 100px;
+  margin-inline: auto;
+  margin-top: 25%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 68px;
+  -webkit-text-stroke: 1px white;
+}
+
+.p1 {
+  font-size: 32px;
+  margin-left: 100px;
+  margin-top: -30px;
+  -webkit-text-stroke: 1px white;
+  font-weight: 700;
+  border-bottom: 15px solid rgb(186, 185, 185);
+  width: 300px;
+
+}
+
+.p2 {
+  font-size: 32px;
+  margin-right: 100px;
+  text-align: right;
+  margin-top: -30px;
+  -webkit-text-stroke: 1px white;
+  font-weight: 700;
+  border-bottom: 15px solid rgb(144, 144, 144);
+  width: 300px;
+  position: absolute;
+  right: 0;
+  
+
+}
+
+
+
+.p3 {
+  font-size: 32px;
+  margin-left: 100px;
+  text-align: center;
+  margin-top: -150px;
+  -webkit-text-stroke: 1px white;
+  font-weight: 700;
+  width: 300px;
+  border-bottom: 15px solid rgb(228, 228, 228);
+}
+
+
+
+
+.reset {
+  background-color: rgb(66, 66, 66);
+  padding: 20px;
+  position: absolute;
+  right: 100px;
+  bottom: 80px;
+  color: white;
+  font-size: 32px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.reset:hover {
+  background-color: white;
+  color: rgb(66, 66, 66);
+  cursor: pointer;
+}
+
+.css {
+  position: absolute;
+  /* grid-column-start: 2 ; */
+  top: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  user-select: all;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(228, 228, 228);
+  
+}
+
+.copy {
+  position: absolute;
+  top: 550px;
+  left: 50%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
